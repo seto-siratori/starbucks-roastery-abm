@@ -1,6 +1,6 @@
 {
-  "id": "shiratoriseto/sb-roastery-sensitivity",
-  "title": "SB Roastery Sensitivity",
+  "id": "shiratoriseto/roastery-sensitivity-test",
+  "title": "Roastery Sensitivity Test",
   "code_file": "06_sensitivity_analysis.ipynb",
   "language": "python",
   "kernel_type": "notebook",
