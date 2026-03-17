@@ -1,0 +1,83 @@
+{
+  "title": "Starbucks Chicago Roastery ABM Data",
+  "subtitle": "Floor structure, menu, 70 Yelp reviews & transition matrices",
+  "description": "## What's inside\n\nData for building an Agent-Based Model of customer flow through the Starbucks Reserve Roastery Chicago — the world's largest Starbucks (35,000 sq ft, 5 floors).\n\n### Files\n1. **roastery_floors.csv** — 5-floor structure with functions, features, dwell times, peak hours\n2. **roastery_menu.csv** — 46 menu items by floor with nutrition and estimated prices\n3. **floor_adjacency_prior.csv** — Physical adjacency-based transition probability matrix\n4. **reviews_manual.csv** — 70 manually collected Yelp reviews (Apr 2025 – Mar 2026)\n\n## Data Sources\n\n| File | Source | License |\n|---|---|---|\n| Floor structure | Starbucks Reserve official site, media coverage | Public |\n| Menu items | Starbucks Reserve menus (starbucksreserve.com) | Public |\n| Reviews | Yelp (manually collected, fair use for research) | Fair use |\n| Adjacency matrix | Derived from building layout | Original |\n\n## Related notebooks (7-notebook series)\n\n| # | Notebook | Description |\n|---|----------|-------------|\n| 1 | Roastery Data | Floor structure, menu, adjacency matrix |\n| 2 | Review NLP | Floor/product extraction, transition sequences |\n| 3 | Transition Calibration | Bayesian blending of prior + observed |\n| 4 | ABM Simulation | 5000-agent customer flow simulation |\n| 5 | Association Analysis | Product co-mention network, cross-sell |\n| 6 | Sensitivity Analysis | Perturbation, convergence, validation |\n| 7 | Strategic Recommendations | Flow, revenue, experience optimization |",
+  "id": "shiratoriseto/starbucks-roastery-abm",
+  "licenses": [
+    {
+      "name": "CC-BY-SA-4.0",
+      "nameNice": "Creative Commons Attribution-ShareAlike 4.0 International"
+    }
+  ],
+  "keywords": [
+    "restaurants",
+    "nlp",
+    "data visualization",
+    "exploratory data analysis",
+    "simulation"
+  ],
+  "resources": [
+    {
+      "path": "roastery_floors.csv",
+      "description": "5-floor structure of the Chicago Roastery with functions and features",
+      "schema": {
+        "fields": [
+          {"name": "floor", "type": "integer", "description": "Floor number (1-5)"},
+          {"name": "name", "type": "string", "description": "Floor name"},
+          {"name": "function", "type": "string", "description": "Primary function"},
+          {"name": "key_feature", "type": "string", "description": "Key attractions"},
+          {"name": "atmosphere", "type": "string", "description": "Atmosphere description"},
+          {"name": "has_food", "type": "boolean", "description": "Food available on this floor"},
+          {"name": "has_coffee", "type": "boolean", "description": "Coffee available"},
+          {"name": "has_alcohol", "type": "boolean", "description": "Alcohol available"},
+          {"name": "has_retail", "type": "boolean", "description": "Merchandise available"},
+          {"name": "peak_time", "type": "string", "description": "Peak traffic period"},
+          {"name": "estimated_dwell_min", "type": "integer", "description": "Estimated average dwell time in minutes"},
+          {"name": "description", "type": "string", "description": "Detailed floor description"}
+        ]
+      }
+    },
+    {
+      "path": "roastery_menu.csv",
+      "description": "46 menu items across all floors with nutrition and estimated prices",
+      "schema": {
+        "fields": [
+          {"name": "floor", "type": "integer", "description": "Floor where item is primarily sold"},
+          {"name": "item", "type": "string", "description": "Item name"},
+          {"name": "category", "type": "string", "description": "Category: coffee, coffee_creation, experience, cocktail, alcohol, food, pastry, tea, retail"},
+          {"name": "cal_min", "type": "integer", "description": "Minimum calories"},
+          {"name": "cal_max", "type": "integer", "description": "Maximum calories"},
+          {"name": "price_est", "type": "number", "description": "Estimated price in USD"},
+          {"name": "is_signature", "type": "boolean", "description": "True if Roastery-exclusive or signature item"}
+        ]
+      }
+    },
+    {
+      "path": "floor_adjacency_prior.csv",
+      "description": "Physical adjacency-based floor transition probability matrix (prior for ABM)",
+      "schema": {
+        "fields": [
+          {"name": "index", "type": "string", "description": "From floor (1F-5F)"},
+          {"name": "1F", "type": "number", "description": "Transition probability to 1F"},
+          {"name": "2F", "type": "number", "description": "Transition probability to 2F"},
+          {"name": "3F", "type": "number", "description": "Transition probability to 3F"},
+          {"name": "4F", "type": "number", "description": "Transition probability to 4F"},
+          {"name": "5F", "type": "number", "description": "Transition probability to 5F"},
+          {"name": "exit", "type": "number", "description": "Exit probability"}
+        ]
+      }
+    },
+    {
+      "path": "reviews_manual.csv",
+      "description": "70 manually collected Yelp reviews of the Chicago Roastery (Apr 2025 - Mar 2026)",
+      "schema": {
+        "fields": [
+          {"name": "source", "type": "string", "description": "Review source (yelp)"},
+          {"name": "date", "type": "string", "description": "Review date (YYYY-MM-DD)"},
+          {"name": "rating", "type": "integer", "description": "Star rating (1-5)"},
+          {"name": "text", "type": "string", "description": "Full review text in English"}
+        ]
+      }
+    }
+  ]
+}

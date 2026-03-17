@@ -1,0 +1,37 @@
+floor,item,category,cal_min,cal_max,price_est,is_signature
+1,Brewed Coffee,coffee,10,10,4.5,False
+1,Cold Brew,coffee,120,120,5.5,False
+1,Nitro Cold Brew,coffee,120,120,6.0,False
+1,Latte,coffee,110,230,6.0,False
+1,Tiramisu Latte,coffee_creation,380,600,7.5,True
+1,Iced Ube Coconut Latte,coffee_creation,220,250,7.5,True
+1,Salted Caramel Bianco Latte,coffee_creation,130,390,7.0,True
+1,Whiskey Barrel-Aged Cold Brew,coffee,30,30,7.0,True
+1,Matcha Latte,tea,160,300,6.5,False
+1,Croissant,pastry,250,350,4.5,False
+1,Tiramisu,pastry,300,400,6.5,False
+1,Chicago Roastery Microblend (beans),retail,0,0,28.0,True
+2,Margherita Focaccia,food,400,500,8.5,False
+2,Pepperoni Focaccia,food,450,550,9.0,False
+2,Prosciutto & Bufala Focaccia,food,400,500,10.0,True
+2,Kale Caesar Salad,food,250,350,9.5,False
+2,Porchetta & Egg On Ciabatta,food,450,550,9.0,True
+2,Avocado Toast,food,300,400,8.0,False
+2,Eggs In Purgatory,food,300,400,8.5,True
+3,Siphon Flight,experience,10,15,15.0,True
+3,Origin Flight,experience,15,15,12.0,True
+3,Chemex For Two,experience,15,15,12.0,True
+3,Pour-Over,experience,10,10,8.0,True
+3,Cold Brew Malt,coffee_creation,450,450,9.0,True
+3,Affogato,coffee_creation,230,230,8.0,True
+4,Espresso Martini,cocktail,200,250,16.0,True
+4,Espresso Martini Flight,cocktail,400,500,22.0,True
+4,Matcha Margarita,cocktail,180,220,16.0,True
+4,Roastery Old Fashioned,cocktail,180,220,18.0,True
+4,Cold Brew Spiced Rum,cocktail,180,220,16.0,True
+4,Whiskey Cloud,cocktail,200,250,17.0,True
+4,Aperol Spritz,cocktail,150,180,14.0,False
+4,Beer,alcohol,150,250,8.0,False
+4,Wine,alcohol,120,180,12.0,False
+5,Seasonal Coffee,coffee,100,300,7.0,False
+5,Seasonal Cocktail,cocktail,180,250,16.0,False

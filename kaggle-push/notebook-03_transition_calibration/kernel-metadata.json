@@ -1,0 +1,12 @@
+{
+  "id": "shiratoriseto/starbucks-roastery-transition-calibration",
+  "title": "Starbucks Roastery Transition Calibration",
+  "code_file": "03_transition_calibration.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "dataset_sources": ["shiratoriseto/starbucks-roastery-abm"],
+  "keywords": ["simulation", "nlp", "data-visualization"]
+}

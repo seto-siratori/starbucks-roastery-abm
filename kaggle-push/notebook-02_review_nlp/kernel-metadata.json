@@ -1,0 +1,12 @@
+{
+  "id": "shiratoriseto/starbucks-roastery-review-nlp",
+  "title": "Starbucks Roastery Review NLP",
+  "code_file": "02_review_nlp.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "dataset_sources": ["shiratoriseto/starbucks-roastery-abm"],
+  "keywords": ["simulation", "nlp", "data-visualization"]
+}

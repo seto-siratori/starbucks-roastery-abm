@@ -1,0 +1,12 @@
+{
+  "id": "shiratoriseto/starbucks-roastery-floor-data",
+  "title": "Starbucks Roastery Floor Data",
+  "code_file": "01_roastery_data.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "dataset_sources": ["shiratoriseto/starbucks-roastery-abm"],
+  "keywords": ["simulation", "nlp", "data-visualization"]
+}

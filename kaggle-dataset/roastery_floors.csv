@@ -1,0 +1,6 @@
+floor,name,function,key_feature,atmosphere,has_food,has_coffee,has_alcohol,has_retail,peak_time,estimated_dwell_min,description
+1,Main Reserve Bar & Scooping Bar,"Coffee, pastries, retail","Roasting operations, bean scooping, Chicago-exclusive merchandise","Grand entrance, coffee cathedral",True,True,False,True,morning,15,Primary coffee bar visible from street.
+2,Princi Bakery & Café,"Italian bakery, full food menu","Open kitchen, pizza, fresh bread, breakfast/lunch","Casual dining, chef observation",True,True,False,False,lunch,25,Princi Italian bakery with open kitchen.
+3,Experiential Coffee Bar,Exploratory brewing methods,"Siphon, Chemex, pour-over, coffee flights","Laboratory, educational",True,True,False,False,afternoon,20,Coffee laboratory with rare brewing methods.
+4,Arriviamo Cocktail Bar,"Coffee cocktails, spirits","Espresso Martini, coffee-infused bourbon","Evening destination, bar",True,True,True,False,evening,35,Craft cocktail bar with coffee-infused spirits.
+5,Rooftop Terrace,Seasonal outdoor seating,Michigan Avenue views,"Open air, seasonal",False,True,True,False,afternoon,15,Seasonal rooftop with Michigan Ave views.
