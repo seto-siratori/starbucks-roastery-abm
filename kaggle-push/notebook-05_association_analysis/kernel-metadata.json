@@ -1,6 +1,6 @@
 {
-  "id": "shiratoriseto/roastery-association-network",
-  "title": "Roastery Association Network",
+  "id": "shiratoriseto/abm-assoc-net",
+  "title": "ABM Assoc Net",
   "code_file": "05_association_analysis.ipynb",
   "language": "python",
   "kernel_type": "notebook",

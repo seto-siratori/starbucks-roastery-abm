@@ -1,6 +1,6 @@
 {
-  "id": "shiratoriseto/roastery-sensitivity-test",
-  "title": "Roastery Sensitivity Test",
+  "id": "shiratoriseto/abm-sens-test",
+  "title": "ABM Sens Test",
   "code_file": "06_sensitivity_analysis.ipynb",
   "language": "python",
   "kernel_type": "notebook",

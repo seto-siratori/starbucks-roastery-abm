@@ -1,6 +1,6 @@
 {
-  "id": "shiratoriseto/roastery-strategic-recs",
-  "title": "Roastery Strategic Recs",
+  "id": "shiratoriseto/abm-strat-recs",
+  "title": "ABM Strat Recs",
   "code_file": "07_strategic_recommendations.ipynb",
   "language": "python",
   "kernel_type": "notebook",
