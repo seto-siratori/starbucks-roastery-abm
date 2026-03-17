@@ -1,6 +1,6 @@
 {
-  "id": "shiratoriseto/abm-assoc-net",
-  "title": "ABM Assoc Net",
+  "id": "shiratoriseto/starbucks-roastery-product-association",
+  "title": "Starbucks Roastery Product Association",
   "code_file": "05_association_analysis.ipynb",
   "language": "python",
   "kernel_type": "notebook",

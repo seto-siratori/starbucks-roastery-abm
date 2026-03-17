@@ -1,6 +1,6 @@
 {
-  "id": "shiratoriseto/abm-strat-recs",
-  "title": "ABM Strat Recs",
+  "id": "shiratoriseto/starbucks-roastery-flow-strategy",
+  "title": "Starbucks Roastery Flow Strategy",
   "code_file": "07_strategic_recommendations.ipynb",
   "language": "python",
   "kernel_type": "notebook",

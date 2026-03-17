@@ -1,6 +1,6 @@
 {
-  "id": "shiratoriseto/abm-sens-test",
-  "title": "ABM Sens Test",
+  "id": "shiratoriseto/starbucks-roastery-sensitivity-validation",
+  "title": "Starbucks Roastery Sensitivity Validation",
   "code_file": "06_sensitivity_analysis.ipynb",
   "language": "python",
   "kernel_type": "notebook",
