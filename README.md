@@ -16,9 +16,9 @@ This project builds a data-grounded ABM using 70 real Yelp reviews as behavioral
 | 2 | [Review NLP](https://www.kaggle.com/code/shiratoriseto/starbucks-roastery-review-nlp) | Floor/product extraction from 70 Yelp reviews |
 | 3 | [Transition Calibration](https://www.kaggle.com/code/shiratoriseto/starbucks-roastery-transition-calibration) | Bayesian blending: physical prior + observed data |
 | 4 | [ABM Simulation](https://www.kaggle.com/code/shiratoriseto/starbucks-roastery-abm-simulation) | 5,000-agent customer flow simulation |
-| 5 | Association Analysis | Product co-mention network, cross-sell opportunities |
-| 6 | Sensitivity Analysis | Perturbation test, convergence, validation |
-| 7 | Strategic Recommendations | Flow optimization, revenue maximization, experience design |
+| 5 | [Product Association & Cross-Sell](https://www.kaggle.com/code/shiratoriseto/starbucks-roastery-product-association-cross-sel) | Product co-mention network, cross-sell opportunities |
+| 6 | [ABM Sensitivity & Validation](https://www.kaggle.com/code/shiratoriseto/starbucks-roastery-abm-sensitivity-validation) | Perturbation test, convergence, validation |
+| 7 | [Customer Flow Strategy](https://www.kaggle.com/code/shiratoriseto/starbucks-roastery-customer-flow-strategy) | Flow optimization, revenue maximization, experience design |
 
 ## Kaggle Resources
 
